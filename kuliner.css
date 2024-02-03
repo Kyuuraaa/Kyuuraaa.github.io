@@ -45,7 +45,6 @@ body {
 }
 
 header {
-  background-image: url(../background.jpg);
   background-size: cover;
   background-position: center;
   margin-bottom: 10em;
