@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: joan;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+/*Navbar*/
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+
+.button{
+  margin-left: 120px;
+  margin-right: 30px;
+} 
+
+
+.navbar-nav{
+  margin-left: 40px;
+}
+
+.nav-link{
+  margin-left: 46px;
+}
+
+.nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid black;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+#content {
+  padding-top: 6rem;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+figcaption a {
+  color: gray;
+  font-size: 0.75em;
+  text-decoration: none;
+}
+
+figcaption a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.info {
+  display: flex;
+}
+
+svg {
+  width: 35px;
+}
+
+.lead {
+  margin: 0.5em 1em 0 0.5em;
+}
+
+.vl {
+  width: 1px;
+  border: 1px solid;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.arrow {
+  margin-top: -60px;
+  height: 80px;
+}
+
+.resep {
+  padding: 3em 0;
+}
+
+.list {
+  line-height: 2.7em;
+  list-style: none;
+}
+
+.credit {
+  font-size: 0.75em;
+  color: grey;
+}
+
+.credit a {
+  color: gray;
+  text-decoration: none;
+}
+
+.credit a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.more {
+  margin-bottom: 3em;
+}
+
+@media only screen and (max-width: 900px) {
+  .text {
+    margin: auto;
+  }
+
+  .image {
+    margin-top: 1em;
+  }
+
+  .arrow {
+    margin: 0;
+  }
+
+  nav ul button {
+    width: 90%;
+  }
+}
